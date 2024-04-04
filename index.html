@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Byte Busters</title>
+
+    <link rel="icon" type="png|image" href="/IMAGES/saianon.png">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+</head>
+<body>
+
+    <canvas id="matrixCanvas"></canvas>
+                                                        <!-- Matrix -->
+    <script src="/JAVASCRIPT/matrix.js"></script>
+
+    <header class="header">
+        <a href="#" class="logo">{ByteBusters} </a>
+
+        <nav class="navbar">
+            <a href="#home" style="--i:1;" class="active">Home</a>
+            <a href="#about" style="--i:2;">About</a>
+            <!--<a href="#skill" style="--i:3;">Skills</a>-->
+            <a href="#projects" style="--i:4;">Challenges & Competitions</a>
+            <a href="#contact" style="--i:5;">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+
+        <div class="home-content" data-scroll data-scroll-speed="-5" >
+            <h3 class="mu">Hello World, It's us !</h3>
+            <h1>ByteBusters</h1>
+            <h3>We are a <span class="pro-text">
+                <script>
+                   var typed = new Typed(".pro-text", {
+                      strings: [
+                        " CyberSecurity",
+                        " HighScool",
+                        " Team",
+                        " from",
+                        " Romania",
+                        
+                      ],
+                      typeSpeed: 100,   
+                      backSpeed: 100,   
+                      backDelay: 1000,  
+                      loop: true        
+                    });
+                </script>
+            </span></h3>
+            
+            <p>  &emsp; &emsp;This portfolio highlights our passion for CyberSecurity. <br> <br>
+                &emsp; &emsp;We are a team of highschool students, based in Suceava, Romania, 
+                from Colegiul National de Informatica "Spiru Haret" Suceava. <br> <br>
+                &emsp; &emsp;We have experience in CTF challenges and real life examples.  
+            </p>
+
+            <div class="home-sci">
+                <a href="https://github.com/SAI127001" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/terukula-sai/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://wa.me/9987886552" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+                <a href="https://www.instagram.com/sai_127.0.0.1/" target="_blank"><i class='bx bxl-instagram'></i></a>
+            </div>
+           <a href="" class="btn-box" download="Sai CV/Resume">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <div class="glowing-circle">
+                <span></span>
+                <span></span>
+                <div class="image">
+                    <img src="/IMAGES/saianon.png" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="about" class="home-content">
+
+        <div class="home-content" data-scroll data-scroll-speed="-5" >
+            <h3 class="mu">More about us!</h3>          
+            <p>  We are a young and dynamic team, comprised of three high school students who are passionate about cybersecurity and exploring the fascinating world of information technology. With a burning desire to understand and solve complex issues in the realm of online security, we have joined forces to form ByteBusters.
+                Each member of our team brings their own sets of skills and experiences in cybersecurity, blending knowledge acquired in school with a passion for continuous exploration and tackling technical challenges. We strive to stay up-to-date with the latest trends and threats in the cybersecurity world, and our determination to learn and evolve continuously helps us stay ahead of the game. 
+                From participating in ethical hacking competitions and Capture The Flag (CTF) events, to tackling security projects in the real-world environment, we are fully committed to our common goal: to help and support each other in becoming better cybersecurity practitioners and to contribute to creating a safer online environment for all.
+                Whether it's developing and testing our skills in our virtual lab or engaging with our local and global cybersecurity community, we are determined to make a positive difference in the digital world.
+            </p>
+
+    </section>
+
+    <section id="projects" class="home-content">
+        <div class="home-content" data-scroll data-scroll-speed="-5">
+           <!--<h3 class="mu">&emsp;Challenges & Competitions</h3> -->           
+            <h2>&emsp;Challenges & Competitions</h2>
+            <ul>
+                <li><strong>Unbreakable Romania:</strong> We proudly participated in Unbreakable Romania, an intense cybersecurity competition where we faced real-world challenges, honing our defensive and offensive skills.</li>
+                <li><strong>TryHackMe:</strong> Exploring TryHackMe's immersive cybersecurity training environment has been a key part of our learning journey. We've tackled a wide range of challenges and rooms to deepen our understanding of various cybersecurity concepts.</li>
+                <li><strong>HackTheBox:</strong> As avid members of the HackTheBox community, we've engaged in numerous hacking challenges and machine exploitations, sharpening our penetration testing abilities and learning from seasoned professionals.</li>
+                <li><strong>ROSC (Romanian Olympiad in Informatics for Cybersecurity):</strong> We proudly represented our school in ROSC, a prestigious cybersecurity competition in Romania. It provided us with an invaluable opportunity to demonstrate our skills and compete against other talented individuals in the field.</li>
+            </ul>
+            <p>&emsp;These experiences have not only expanded our technical expertise but have also fostered teamwork, problem-solving, and a deep passion for cybersecurity. We look forward to tackling more challenges and competitions as we continue our journey in the exciting world of cybersecurity.</p>
+        </div>
+    </section>
+    
+    <section id="contact" class="contact home-content">
+        <div class="home-content" data-scroll data-scroll-speed="-5">
+            <h3 class="mu">&emsp;Contact</h3>
+    
+            <div class="contact-form">
+                <div class="contact-info">
+                    <h4>&emsp;Team Leader</h4>
+                    <p>&emsp;Name: John Doe</p>
+                    <p>&emsp;Email: john.doe@example.com</p>
+                    <p>&emsp;Phone: +1234567890</p>
+                </div>
+    
+                <div class="contact-info">
+                    <h4>&emsp;Member 1</h4>
+                    <p>&emsp;Name: Jane Smith</p>
+                    <p>&emsp;Email: jane.smith@example.com</p>
+                </div>
+    
+                <div class="contact-info">
+                    <h4>&emsp;Member 2</h4>
+                    <p>&emsp;Name: Alex Johnson</p>
+                    <p>&emsp;Email: alex.johnson@example.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body> 
+</html> 
